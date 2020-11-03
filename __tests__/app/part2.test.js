@@ -23,9 +23,9 @@ describe('part2', () => {
 
 describe('part2', () => {
     it('calculate additional fuel', () => {
-        let massesInput = fs.readFileSync(inputFile, { encoding: "utf-8" })
+        let massesInput = fs.readFileSync(inputFile, { encoding: 'utf-8' })
             .trim()
-            .split("\n");
+            .split('\n');
         expect(part2.CalculateAdditionalFuel(massesInput)).toEqual(5132379);
     });
 });

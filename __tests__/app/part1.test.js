@@ -30,9 +30,9 @@ describe('part1', () => {
 
 describe('part1', () => {
     it('calculate fuel', () => {
-        let massesInput = fs.readFileSync(inputFile, { encoding: "utf-8" })
+        let massesInput = fs.readFileSync(inputFile, { encoding: 'utf-8' })
             .trim()
-            .split("\n");
+            .split('\n');
         expect(part1.CalculateFuelForModules(massesInput)).toEqual(3423511);
     });
 });
