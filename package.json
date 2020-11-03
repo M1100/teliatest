@@ -1,0 +1,14 @@
+{
+  "name": "teliatest",
+  "version": "1.0.0",
+  "description": "solution for day1 of adventofcode 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mostafa Hussein",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.2"
+  }
+}
